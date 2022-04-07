@@ -21,3 +21,9 @@ In this repo I'll practice all Javascript basic concepts:
   _ 2. Write Formulas in JS
   _ 3. Create Functions for each formula
   _ 4. Add JS to HTML
+
+## PRACTICE 2: mean median and mode.
+  _ 1. Define Formula
+  _ 2. Write Formulas in JS
+  _ 3. Create Functions for each formula
+  _ 4. Add JS to HTML

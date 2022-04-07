@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="discount.css">
+    <title>Disconunts</title>
 </head>
 <body>
-    
+
+    <header>
+        <h1>
+            Price discount calculator
+        </h1>
+        <p>2nd Practice from Javascript Practice Course.</p>
+    </header>
+    <section>
+        <h2> Calculate the final price for your products in discount</h2>
+
+        <form action="">
+            <label for="price"> Type the price of your product:</label>
+            <input type="number" id="price" placeholder=0>
+            <label for="discount">Type the discount percentage:</label>
+            <input type="number" id="discount" placeholder=0>
+            <label for="cupon">Type the discount cupon %:</label>
+            <input type="number" id="cupon" placeholder=0>
+            <button type="button" onclick="calculatePriceDiscount();">Calculate</button>
+            <p id="resultP"></p>
+        </form>
+    </section>
+
+    <script src="discount.js"></script>
 </body>
 </html>
